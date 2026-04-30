@@ -1,0 +1,27 @@
+{
+  "generatedAtUtc": "2026-04-22T03:37:25.745529+00:00",
+  "platform": "windows",
+  "version": "0.1.0",
+  "packageType": "portable_venv",
+  "releaseDir": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\releases\\windows\\isd-v0.1.0-20260422T033725Z",
+  "skipWheelBuild": true,
+  "dependencies": [
+    "PySide6>=6.7",
+    "pydantic>=2.7",
+    "pydantic-settings>=2.2",
+    "numpy>=1.26",
+    "scipy>=1.13",
+    "pandas>=2.2",
+    "pyarrow>=16.0",
+    "pyqtgraph>=0.13",
+    "structlog>=24.1",
+    "python-dateutil>=2.9"
+  ],
+  "launchers": [
+    "install_and_launch.bat",
+    "launch_isd.bat",
+    "upgrade_isd.bat",
+    "collect_diagnostics.bat",
+    "rollback_workspace.bat"
+  ]
+}

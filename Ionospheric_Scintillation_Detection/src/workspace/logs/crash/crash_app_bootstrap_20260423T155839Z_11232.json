@@ -1,0 +1,25 @@
+{
+  "timestampUtc": "2026-04-23T15:58:39.600665+00:00",
+  "source": "app_bootstrap",
+  "appVersion": "0.1.0",
+  "pythonVersion": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22621-SP0",
+  "pid": 11232,
+  "exceptionType": "NameError",
+  "message": "name 'QGridLayout' is not defined",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\Administrator\\Desktop\\Ionospheric_Scintillation_Detection\\Ionospheric_Scintillation_Detection\\src\\isd\\__main__.py\", line 30, in main\n    exit_code = run(context)\n  File \"D:\\Administrator\\Desktop\\Ionospheric_Scintillation_Detection\\Ionospheric_Scintillation_Detection\\src\\isd\\ui\\main_window.py\", line 240, in run\n    win = MainWindow(context)\n  File \"D:\\Administrator\\Desktop\\Ionospheric_Scintillation_Detection\\Ionospheric_Scintillation_Detection\\src\\isd\\ui\\main_window.py\", line 39, in __init__\n    self.data_upload_page = DataUploadPage(context.command_bus)\n                            ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Administrator\\Desktop\\Ionospheric_Scintillation_Detection\\Ionospheric_Scintillation_Detection\\src\\isd\\ui\\pages\\project_page.py\", line 263, in __init__\n    self._build_ui()\n    ~~~~~~~~~~~~~~^^\n  File \"D:\\Administrator\\Desktop\\Ionospheric_Scintillation_Detection\\Ionospheric_Scintillation_Detection\\src\\isd\\ui\\pages\\project_page.py\", line 279, in _build_ui\n    content_layout.addWidget(self._build_upload_section())\n                             ~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"D:\\Administrator\\Desktop\\Ionospheric_Scintillation_Detection\\Ionospheric_Scintillation_Detection\\src\\isd\\ui\\pages\\project_page.py\", line 332, in _build_upload_section\n    grid = QGridLayout()\n           ^^^^^^^^^^^\nNameError: name 'QGridLayout' is not defined. Did you mean: 'QFormLayout'?\n",
+  "context": {
+    "startup": {
+      "workspaceRoot": "D:\\Administrator\\Desktop\\Ionospheric_Scintillation_Detection\\Ionospheric_Scintillation_Detection\\src\\workspace",
+      "databasePath": "D:\\Administrator\\Desktop\\Ionospheric_Scintillation_Detection\\Ionospheric_Scintillation_Detection\\src\\workspace\\isd.sqlite3",
+      "stateFilePath": "D:\\Administrator\\Desktop\\Ionospheric_Scintillation_Detection\\Ionospheric_Scintillation_Detection\\src\\workspace\\runtime\\startup_state.json",
+      "appVersion": "0.1.0",
+      "installId": "e1918571-ca41-45ca-af74-f2aaf273bed3",
+      "firstRun": false,
+      "upgradeDetected": false,
+      "previousVersion": "0.1.0",
+      "dbBackupPath": null,
+      "startedAt": "2026-04-23T15:58:39.578813+00:00"
+    }
+  }
+}

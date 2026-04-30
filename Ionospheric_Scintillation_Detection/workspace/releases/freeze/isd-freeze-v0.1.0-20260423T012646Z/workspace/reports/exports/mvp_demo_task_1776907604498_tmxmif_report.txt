@@ -1,0 +1,23 @@
+Ionospheric Scintillation Detection Report
+template=default_template (Default Report Template)
+title=MVP Demo Report
+projectId=proj_1776907604449_3fzosd
+resultCount=6
+metrics={'ROTI': 6}
+stations=['ALBH', 'BAMF', 'CHWK', 'HOLB', 'NANO', 'UCLU']
+chainLevels=['FORMAL']
+samplingModes=['STANDARD_30S']
+providerSources=['coord:RINEX_APPROX,orbitClock:SP3_CLK,antenna:ATX_FILE']
+riskFlags=['FORMAL_PIPELINE']
+taskInfo={'projectIds': ['proj_1776907604449_3fzosd'], 'taskIds': ['task_1776907604498_tmxmif'], 'taskCount': 1}
+parameterSnapshot={'chainLevels': ['FORMAL'], 'samplingModes': ['STANDARD_30S'], 'thresholdSources': ['LITERATURE_REFERENCE'], 'parameterSources': ['default;providers=coord:RINEX_APPROX,orbitClock:SP3_CLK,antenna:ATX_FILE'], 'coordinateSources': ['RINEX_APPROX'], 'providerSources': ['coord:RINEX_APPROX,orbitClock:SP3_CLK,antenna:ATX_FILE']}
+includeLogSummary=true
+resultIds=res_1776907606144_3inqna,res_1776907606453_njbbon,res_1776907605187_5frvpw,res_1776907605512_pwq9d0,res_1776907605827_rk4n1t,res_1776907604868_j88l7b
+
+resultCards:
+- res_1776907606144_3inqna | ROTI | NANO | GPS | coord=RINEX_APPROX | providers=coord:RINEX_APPROX,orbitClock:SP3_CLK,antenna:ATX_FILE | risk=['FORMAL_PIPELINE'] | stats={'min': 8.53912682809686e-05, 'max': 0.7152472419375665, 'mean': 0.06308997189749306, 'eventCount': None}
+- res_1776907606453_njbbon | ROTI | UCLU | GPS | coord=RINEX_APPROX | providers=coord:RINEX_APPROX,orbitClock:SP3_CLK,antenna:ATX_FILE | risk=['FORMAL_PIPELINE'] | stats={'min': 0.00042700648345556265, 'max': 0.4840774048965315, 'mean': 0.05654131590174163, 'eventCount': None}
+- res_1776907605187_5frvpw | ROTI | BAMF | GPS | coord=RINEX_APPROX | providers=coord:RINEX_APPROX,orbitClock:SP3_CLK,antenna:ATX_FILE | risk=['FORMAL_PIPELINE'] | stats={'min': 0.000597638595141512, 'max': 0.510142846556864, 'mean': 0.07256515240253035, 'eventCount': None}
+- res_1776907605512_pwq9d0 | ROTI | CHWK | GPS | coord=RINEX_APPROX | providers=coord:RINEX_APPROX,orbitClock:SP3_CLK,antenna:ATX_FILE | risk=['FORMAL_PIPELINE'] | stats={'min': 0.0029455224123713666, 'max': 0.7703812666856834, 'mean': 0.08050586640859202, 'eventCount': None}
+- res_1776907605827_rk4n1t | ROTI | HOLB | GPS | coord=RINEX_APPROX | providers=coord:RINEX_APPROX,orbitClock:SP3_CLK,antenna:ATX_FILE | risk=['FORMAL_PIPELINE'] | stats={'min': 0.0003414647900775372, 'max': 0.9080566771958272, 'mean': 0.07021885152066948, 'eventCount': None}
+- res_1776907604868_j88l7b | ROTI | ALBH | GPS | coord=RINEX_APPROX | providers=coord:RINEX_APPROX,orbitClock:SP3_CLK,antenna:ATX_FILE | risk=['FORMAL_PIPELINE'] | stats={'min': 0.0003415149317489225, 'max': 0.5108240917736648, 'mean': 0.05672505285388997, 'eventCount': None}

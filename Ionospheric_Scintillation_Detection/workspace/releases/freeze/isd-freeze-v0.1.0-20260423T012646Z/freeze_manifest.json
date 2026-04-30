@@ -1,0 +1,60 @@
+{
+  "generatedAtUtc": "2026-04-23T01:26:46.864834+00:00",
+  "freezeId": "isd-freeze-v0.1.0-20260423T012646Z",
+  "version": "0.1.0",
+  "signedBy": "codex_step12_closeout",
+  "overallStatus": "PASSED",
+  "checks": [
+    {
+      "name": "release_freeze_snapshot_passed",
+      "status": true,
+      "detail": "workspace/reports/release_freeze_snapshot.json overallStatus == PASSED"
+    },
+    {
+      "name": "step12_matrix_passed",
+      "status": true,
+      "detail": "workspace/reports/regression_step12_summary_matrix.json overallStatus == PASSED"
+    },
+    {
+      "name": "windows_release_gate_passed",
+      "status": true,
+      "detail": "workspace/reports/windows_release_gate_summary.json overallStatus == PASSED"
+    },
+    {
+      "name": "mvp_demo_completed",
+      "status": true,
+      "detail": "workspace/reports/mvp_demo_summary.json taskStatus == COMPLETED"
+    },
+    {
+      "name": "mvp_demo_exports_exist",
+      "status": true,
+      "detail": "Demo export files exist: ['E:\\\\2026_mapping_competition\\\\M_ISSION-master\\\\Ionospheric_Scintillation_Detection\\\\workspace\\\\reports\\\\mvp_demo_task_1776907604498_tmxmif_first.mat', 'E:\\\\2026_mapping_competition\\\\M_ISSION-master\\\\Ionospheric_Scintillation_Detection\\\\workspace\\\\reports\\\\mvp_demo_task_1776907604498_tmxmif_first.parquet', 'E:\\\\2026_mapping_competition\\\\M_ISSION-master\\\\Ionospheric_Scintillation_Detection\\\\workspace\\\\reports\\\\mvp_demo_task_1776907604498_tmxmif_report.txt']"
+    },
+    {
+      "name": "version_sync_passed",
+      "status": true,
+      "detail": "pyproject.toml version equals src/isd/__init__.py __version__ and semver valid"
+    },
+    {
+      "name": "required_docs_present",
+      "status": true,
+      "detail": "Required docs present for freeze: release notes / limitations / rollback / acceptance checklist",
+      "missing": []
+    }
+  ],
+  "steps": [
+    {
+      "name": "run_release_freeze",
+      "status": "PASSED",
+      "exitCode": 0,
+      "logTail": "_dixsg_24084.json\nALBH mae=0.000e+00\nBAMF mae=0.000e+00\nCHWK mae=0.000e+00\nHOLB mae=0.000e+00\nNANO mae=0.000e+00\nUCLU mae=0.000e+00\nReport: E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_sigmaphi_24084.json\nALBH mat_mae=0.000e+00 parquet_mae=0.000e+00\nBAMF mat_mae=0.000e+00 parquet_mae=0.000e+00\nCHWK mat_mae=0.000e+00 parquet_mae=0.000e+00\nHOLB mat_mae=0.000e+00 parquet_mae=0.000e+00\nNANO mat_mae=0.000e+00 parquet_mae=0.000e+00\nUCLU mat_mae=0.000e+00 parquet_mae=0.000e+00\nDIXSG mat_values_mae=0.000e+00 mat_grid_mae=0.000e+00 parquet_values_mae=0.000e+00 parquet_grid_mae=0.000e+00\nReport: E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_export_24084.json\nExport regression passed.\nSummary: E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_step12_summary_24084.json\noverallStatus=PASSED\nSummary: E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_step12_summary_matrix.json\noverallStatus=PASSED\n>> F:\\anaconda\\anaconda\\envs\\isd-mvp\\python.exe -m pytest -q\n>> F:\\anaconda\\anaconda\\envs\\isd-mvp\\python.exe scripts/run_roti_aatr_regression_24084.py --dataset 24084 --reports-dir workspace/reports\n>> F:\\anaconda\\anaconda\\envs\\isd-mvp\\python.exe scripts/run_crot_dixsg_regression_24084.py --dataset 24084 --reports-dir workspace/reports\n>> F:\\anaconda\\anaconda\\envs\\isd-mvp\\python.exe scripts/run_sigmaphi_regression_24084.py --dataset 24084 --reports-dir workspace/reports\n>> F:\\anaconda\\anaconda\\envs\\isd-mvp\\python.exe scripts/run_export_regression_24084.py --dataset 24084 --reports-dir workspace/reports\n>> F:\\anaconda\\anaconda\\envs\\isd-mvp\\python.exe scripts/build_step12_summary.py --dataset 24084 --reports-dir workspace/reports --output workspace/reports/regression_step12_summary_24084.json\n>> F:\\anaconda\\anaconda\\envs\\isd-mvp\\python.exe scripts/build_step12_summary.py --datasets 24084 --reports-dir workspace/reports --output workspace/reports/regression_step12_summary_matrix.json\nStep12 gate passed.\n\n>> F:\\anaconda\\anaconda\\envs\\isd-mvp\\python.exe scripts/run_windows_release_gate.py\n>> F:\\anaconda\\anaconda\\envs\\isd-mvp\\python.exe scripts/check_version_sync.py\nVersion check passed: 0.1.0\n\n>> F:\\anaconda\\anaconda\\envs\\isd-mvp\\python.exe scripts/build_windows_release.py --skip-wheel\nWindows release package generated: E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\releases\\windows\\isd-v0.1.0-20260423T012643Z\nVersion: 0.1.0\n\nSummary: E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\windows_release_gate_summary.json\noverallStatus=PASSED\n\n>> F:\\anaconda\\anaconda\\envs\\isd-mvp\\python.exe scripts/run_mvp_demo.py --project-name closeout_demo_20260423_092608\n{\n  \"projectId\": \"proj_1776907604449_3fzosd\",\n  \"taskId\": \"task_1776907604498_tmxmif\",\n  \"taskStatus\": \"COMPLETED\",\n  \"stationCount\": 6,\n  \"runDate\": \"2024-03-24\",\n  \"resultCount\": 6,\n  \"firstResultId\": \"res_1776907606144_3inqna\",\n  \"exports\": {\n    \"mat\": \"E:\\\\2026_mapping_competition\\\\M_ISSION-master\\\\Ionospheric_Scintillation_Detection\\\\workspace\\\\reports\\\\mvp_demo_task_1776907604498_tmxmif_first.mat\",\n    \"parquet\": \"E:\\\\2026_mapping_competition\\\\M_ISSION-master\\\\Ionospheric_Scintillation_Detection\\\\workspace\\\\reports\\\\mvp_demo_task_1776907604498_tmxmif_first.parquet\",\n    \"report\": \"E:\\\\2026_mapping_competition\\\\M_ISSION-master\\\\Ionospheric_Scintillation_Detection\\\\workspace\\\\reports\\\\mvp_demo_task_1776907604498_tmxmif_report.txt\"\n  },\n  \"riskFlags\": [\n    \"FORMAL_PIPELINE\"\n  ]\n}\nSummary: E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\mvp_demo_summary.json\n\nFreeze snapshot: E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\release_freeze_snapshot.json\noverallStatus=PASSED\n"
+    },
+    {
+      "name": "check_version_sync",
+      "status": "PASSED",
+      "exitCode": 0,
+      "logTail": "Version check passed: 0.1.0\n"
+    }
+  ],
+  "missingFiles": []
+}

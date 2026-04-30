@@ -1,0 +1,49 @@
+{
+  "projectId": "proj_1776962141108_tq8rhc",
+  "scanPaths": [
+    "D:\\Administrator\\Desktop\\Ionospheric_Scintillation_Detection\\Ionospheric_Scintillation_Detection\\workspace\\samples\\matlab_24084\\raw"
+  ],
+  "fileCounts": {
+    "ATX": 1,
+    "CLK": 1,
+    "OBS": 6,
+    "SP3": 3
+  },
+  "stationCount": 6,
+  "dependencySummary": {
+    "2024-03-23": {
+      "SP3": "matched",
+      "CLK": "missing",
+      "ATX": "matched",
+      "NAV": "missing",
+      "obsPresent": false,
+      "missingRequired": [
+        "CLK"
+      ],
+      "chainLevel": "DEGRADED",
+      "status": "partial"
+    },
+    "2024-03-24": {
+      "SP3": "matched",
+      "CLK": "matched",
+      "ATX": "matched",
+      "NAV": "missing",
+      "obsPresent": true,
+      "missingRequired": [],
+      "chainLevel": "FORMAL",
+      "status": "ready"
+    },
+    "2024-03-25": {
+      "SP3": "matched",
+      "CLK": "missing",
+      "ATX": "matched",
+      "NAV": "missing",
+      "obsPresent": false,
+      "missingRequired": [
+        "CLK"
+      ],
+      "chainLevel": "DEGRADED",
+      "status": "partial"
+    }
+  }
+}

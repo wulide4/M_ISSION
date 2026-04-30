@@ -1,0 +1,12 @@
+{
+  "installId": "d37110f1-bd44-4814-bc17-1fd207e19b9b",
+  "appVersion": "0.1.0",
+  "firstRunAt": "2026-04-26T13:46:56.365722+00:00",
+  "lastStartupAt": "2026-04-28T15:20:48.343127+00:00",
+  "previousVersion": "0.1.0",
+  "upgradeDetected": false,
+  "lastDbBackupPath": null,
+  "lastExitCode": 0,
+  "lastExitAt": "2026-04-28T15:21:11.256047+00:00",
+  "lastCrashLogPath": null
+}

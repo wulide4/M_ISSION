@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAtUtc": "2026-04-22T00:00:00Z",
+  "datasets": [
+    {
+      "id": "24084",
+      "datasetId": "matlab_24084",
+      "label": "MATLAB baseline DOY 24084",
+      "doy": "24084",
+      "date": "2024-03-24",
+      "enabled": true,
+      "manifest": "config/datasets/matlab_24084_manifest.json",
+      "stations": [
+        "ALBH",
+        "BAMF",
+        "CHWK",
+        "HOLB",
+        "NANO",
+        "UCLU"
+      ]
+    },
+    {
+      "id": "24085",
+      "datasetId": "matlab_24085",
+      "label": "MATLAB baseline DOY 24085 (pending ingest)",
+      "doy": "24085",
+      "date": "2024-03-25",
+      "enabled": false,
+      "manifest": "config/datasets/matlab_24085_manifest.json",
+      "stations": []
+    },
+    {
+      "id": "24086",
+      "datasetId": "matlab_24086",
+      "label": "MATLAB baseline DOY 24086 (pending ingest)",
+      "doy": "24086",
+      "date": "2024-03-26",
+      "enabled": false,
+      "manifest": "config/datasets/matlab_24086_manifest.json",
+      "stations": []
+    }
+  ]
+}

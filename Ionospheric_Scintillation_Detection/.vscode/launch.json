@@ -1,0 +1,33 @@
+﻿{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "ISD: Run App (conda isd-mvp)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "isd",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/src",
+        "PATH": "F:/anaconda/anaconda/envs/isd-mvp;F:/anaconda/anaconda/envs/isd-mvp/Library/bin;F:/anaconda/anaconda/envs/isd-mvp/Library/mingw-w64/bin;F:/anaconda/anaconda/envs/isd-mvp/Library/usr/bin;F:/anaconda/anaconda/envs/isd-mvp/Scripts;${env:PATH}"
+      },
+      "python": "F:/anaconda/anaconda/envs/isd-mvp/python.exe",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "ISD: Run __main__.py",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/isd/__main__.py",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/src",
+        "PATH": "F:/anaconda/anaconda/envs/isd-mvp;F:/anaconda/anaconda/envs/isd-mvp/Library/bin;F:/anaconda/anaconda/envs/isd-mvp/Library/mingw-w64/bin;F:/anaconda/anaconda/envs/isd-mvp/Library/usr/bin;F:/anaconda/anaconda/envs/isd-mvp/Scripts;${env:PATH}"
+      },
+      "python": "F:/anaconda/anaconda/envs/isd-mvp/python.exe",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "datasetId": "matlab_24084",
+  "datasetLabel": "MATLAB sample baseline aligned with DOY 24084",
+  "doy": "24084",
+  "date": "2024-03-24",
+  "status": "ready",
+  "generatedAtUtc": "2026-04-22T02:54:42.390114+00:00",
+  "repoRoot": "E:\\2026_mapping_competition\\M_ISSION-master",
+  "projectRoot": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection",
+  "stations": [
+    "ALBH",
+    "BAMF",
+    "CHWK",
+    "HOLB",
+    "NANO",
+    "UCLU"
+  ],
+  "counts": {
+    "input_obs": 6,
+    "input_sp3": 3,
+    "input_clk": 1,
+    "input_atx": 1,
+    "golden_roti": 6,
+    "golden_aatr": 6,
+    "golden_rmsaatr": 6,
+    "golden_crot": 6,
+    "golden_dixsg": 1,
+    "golden_sigmaphi": 6
+  },
+  "entries": [
+    {
+      "category": "input_obs",
+      "role": "input",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\input_o_and_r file\\24084\\albh0840.24o",
+      "sizeBytes": 22706034,
+      "mtimeUtc": "2026-04-18T11:39:32.656210+00:00",
+      "sha256": "1069365a59f141795eaeb35d2def41bfbf2a81eef2098c15ce71a150468137e5",
+      "station": "ALBH"
+    },
+    {
+      "category": "input_obs",
+      "role": "input",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\input_o_and_r file\\24084\\bamf0840.24o",
+      "sizeBytes": 24497739,
+      "mtimeUtc": "2026-04-18T11:39:47.195856+00:00",
+      "sha256": "729eb6b40e57a5afe869e937d74fb8efd0e18e104b07ab343aeaa31ac4f90af2",
+      "station": "BAMF"
+    },
+    {
+      "category": "input_obs",
+      "role": "input",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\input_o_and_r file\\24084\\chwk0840.24o",
+      "sizeBytes": 22565863,
+      "mtimeUtc": "2026-04-18T11:40:00.111324+00:00",
+      "sha256": "7f21d38f45afff9cdd12af216bdf8d46dacf006a6cecd6db9fcb430b260dc3d6",
+      "station": "CHWK"
+    },
+    {
+      "category": "input_obs",
+      "role": "input",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\input_o_and_r file\\24084\\holb0840.24o",
+      "sizeBytes": 29745585,
+      "mtimeUtc": "2026-04-18T11:40:10.130345+00:00",
+      "sha256": "72e21e0d98a3701ebbb8fd408d61c552e565b779dd5dab5b006a789a2fc090f7",
+      "station": "HOLB"
+    },
+    {
+      "category": "input_obs",
+      "role": "input",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\input_o_and_r file\\24084\\nano0840.24o",
+      "sizeBytes": 28254623,
+      "mtimeUtc": "2026-04-18T11:40:19.873512+00:00",
+      "sha256": "e6e013c202e5124f472a317911c7475ab7e702d966bf9d97dbce62340da64388",
+      "station": "NANO"
+    },
+    {
+      "category": "input_obs",
+      "role": "input",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\input_o_and_r file\\24084\\uclu0840.24o",
+      "sizeBytes": 23553677,
+      "mtimeUtc": "2026-04-18T11:40:29.312352+00:00",
+      "sha256": "06684ecc2dfcacf94168108292744e7dd8ebd4eb583df1d718f693d6785ef844",
+      "station": "UCLU"
+    },
+    {
+      "category": "input_sp3",
+      "role": "input",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\input_sp3_file\\24084\\COD0MGXFIN_20240830000_01D_05M_ORB.SP3",
+      "sizeBytes": 2144311,
+      "mtimeUtc": "2025-08-03T15:21:41+00:00",
+      "sha256": "bca17315a7f9c59fc3e38fc671e6f901c190d2075edb282778647fc786562220",
+      "station": null
+    },
+    {
+      "category": "input_sp3",
+      "role": "input",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\input_sp3_file\\24084\\COD0MGXFIN_20240840000_01D_05M_ORB.SP3",
+      "sizeBytes": 2144311,
+      "mtimeUtc": "2025-08-03T15:21:41+00:00",
+      "sha256": "a0e7fdc9b51547dbbbe5915e96270120e1b00dbc5aaa0d4af7c34aa7e871f297",
+      "station": null
+    },
+    {
+      "category": "input_sp3",
+      "role": "input",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\input_sp3_file\\24084\\COD0MGXFIN_20240850000_01D_05M_ORB.SP3",
+      "sizeBytes": 2144311,
+      "mtimeUtc": "2025-08-03T15:21:41+00:00",
+      "sha256": "0e384a493c6ff65b5092ebb5adf1fdf7a3de1798436208d3d1ff8a6fbadd0f65",
+      "station": null
+    },
+    {
+      "category": "input_clk",
+      "role": "input",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\input_clk_and_atx_file\\24084\\COD0MGXFIN_20240840000_01D_30S_CLK.CLK",
+      "sizeBytes": 36698598,
+      "mtimeUtc": "2025-08-03T15:21:41+00:00",
+      "sha256": "748790147551920a0391f6f20c744992a437f4cae5da1bce1fa88122f73fa953",
+      "station": null
+    },
+    {
+      "category": "input_atx",
+      "role": "input",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\input_clk_and_atx_file\\24084\\igs20.atx",
+      "sizeBytes": 37191919,
+      "mtimeUtc": "2025-08-03T15:21:41+00:00",
+      "sha256": "1fb7464228e0dcdb6bc129796f55c70e08cf68c7cacd01fb48335d41930690f6",
+      "station": null
+    },
+    {
+      "category": "golden_roti",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resROTI\\GPSROTI24084\\ALBH24084GPSROTI.mat",
+      "sizeBytes": 109515,
+      "mtimeUtc": "2026-04-18T11:24:01.007823+00:00",
+      "sha256": "21f2188e158c770e1fc5f6392b1fb7fd6d407f527c66c720d5f00572603c6f6b",
+      "station": null
+    },
+    {
+      "category": "golden_roti",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resROTI\\GPSROTI24084\\BAMF24084GPSROTI.mat",
+      "sizeBytes": 109243,
+      "mtimeUtc": "2026-04-18T11:24:01.194809+00:00",
+      "sha256": "31a76c08c4efa4752c3d9c23a0d3d64011da938bb35be2281bb6289fa3f39cb9",
+      "station": null
+    },
+    {
+      "category": "golden_roti",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resROTI\\GPSROTI24084\\CHWK24084GPSROTI.mat",
+      "sizeBytes": 108973,
+      "mtimeUtc": "2026-04-18T11:24:01.367416+00:00",
+      "sha256": "fda813f70a01f028064b13ed1ab08d3711fa10f9d5057fce23d70c1246d450f4",
+      "station": null
+    },
+    {
+      "category": "golden_roti",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resROTI\\GPSROTI24084\\HOLB24084GPSROTI.mat",
+      "sizeBytes": 109243,
+      "mtimeUtc": "2026-04-18T11:24:01.666119+00:00",
+      "sha256": "b41a13d7ea413fb709235b6895d0f794489b8ce8b330388b8e8a7fb7aeb546d0",
+      "station": null
+    },
+    {
+      "category": "golden_roti",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resROTI\\GPSROTI24084\\NANO24084GPSROTI.mat",
+      "sizeBytes": 109076,
+      "mtimeUtc": "2026-04-18T11:24:01.931623+00:00",
+      "sha256": "35e0733de845e114c57ffe8c06ae8d935b1e4e2e390537417cea75ee1709b08f",
+      "station": null
+    },
+    {
+      "category": "golden_roti",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resROTI\\GPSROTI24084\\UCLU24084GPSROTI.mat",
+      "sizeBytes": 109552,
+      "mtimeUtc": "2026-04-18T11:24:02.179846+00:00",
+      "sha256": "66488183cfe27d10804d1e1f71cf4980b5de13102b026861b1c9987d43b5c966",
+      "station": null
+    },
+    {
+      "category": "golden_aatr",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resAATR\\GPSAATR24084\\ALBH24084GPSAATR.mat",
+      "sizeBytes": 113278,
+      "mtimeUtc": "2026-04-18T11:23:46.930223+00:00",
+      "sha256": "dbeca98cc76bedd6a18bbfd64a144dfbaae6d67b3c774c1bb18d3cbf510e3788",
+      "station": null
+    },
+    {
+      "category": "golden_aatr",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resAATR\\GPSAATR24084\\BAMF24084GPSAATR.mat",
+      "sizeBytes": 113251,
+      "mtimeUtc": "2026-04-18T11:23:47.121106+00:00",
+      "sha256": "0ec4cae24addb5d58fb16a19621488d1307a32939a48f70ca020fd0a9e0d10dd",
+      "station": null
+    },
+    {
+      "category": "golden_aatr",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resAATR\\GPSAATR24084\\CHWK24084GPSAATR.mat",
+      "sizeBytes": 112946,
+      "mtimeUtc": "2026-04-18T11:23:47.285806+00:00",
+      "sha256": "d67fc22cdbe126e416e1564fa9c9b28ee0f6b1b1d5d1d442af5366415c4f2573",
+      "station": null
+    },
+    {
+      "category": "golden_aatr",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resAATR\\GPSAATR24084\\HOLB24084GPSAATR.mat",
+      "sizeBytes": 113272,
+      "mtimeUtc": "2026-04-18T11:23:47.439062+00:00",
+      "sha256": "a94271ea6ca1bf93359e9fd60b7843edc3f1725e01fa092b587fcbef592c008f",
+      "station": null
+    },
+    {
+      "category": "golden_aatr",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resAATR\\GPSAATR24084\\NANO24084GPSAATR.mat",
+      "sizeBytes": 112962,
+      "mtimeUtc": "2026-04-18T11:23:47.587975+00:00",
+      "sha256": "3a5b501352b2274bec7d82ea338750ba90934c8f194b01ebc015fd959941ec04",
+      "station": null
+    },
+    {
+      "category": "golden_aatr",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resAATR\\GPSAATR24084\\UCLU24084GPSAATR.mat",
+      "sizeBytes": 113512,
+      "mtimeUtc": "2026-04-18T11:23:47.739343+00:00",
+      "sha256": "f7cf65f507a082b91aa354662904b210488bfc0cdf4dfda3dff7c6aba156c57a",
+      "station": null
+    },
+    {
+      "category": "golden_rmsaatr",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resRMSAATR\\GPSRMSAATR24084\\ALBH24084GPSRMSAATR.mat",
+      "sizeBytes": 383,
+      "mtimeUtc": "2026-04-18T11:23:46.964425+00:00",
+      "sha256": "dc2f14bd739dfd298ac289517e5f3bae373992290c21cd6fcaa686a335adfd7e",
+      "station": null
+    },
+    {
+      "category": "golden_rmsaatr",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resRMSAATR\\GPSRMSAATR24084\\BAMF24084GPSRMSAATR.mat",
+      "sizeBytes": 382,
+      "mtimeUtc": "2026-04-18T11:23:47.124136+00:00",
+      "sha256": "6c1e8f07dca45cfcfc99bb065dca107704ba6c7978f85e1a49910c74437ebc81",
+      "station": null
+    },
+    {
+      "category": "golden_rmsaatr",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resRMSAATR\\GPSRMSAATR24084\\CHWK24084GPSRMSAATR.mat",
+      "sizeBytes": 382,
+      "mtimeUtc": "2026-04-18T11:23:47.288808+00:00",
+      "sha256": "d7781c2094f1a7f786d7d6b6cd65fe74fb331f1f30860040b9fbe641614e6519",
+      "station": null
+    },
+    {
+      "category": "golden_rmsaatr",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resRMSAATR\\GPSRMSAATR24084\\HOLB24084GPSRMSAATR.mat",
+      "sizeBytes": 383,
+      "mtimeUtc": "2026-04-18T11:23:47.443164+00:00",
+      "sha256": "56dd93441d180aa47b515588794d9c71eecfba7b03a978fd34050cb1fa856d2a",
+      "station": null
+    },
+    {
+      "category": "golden_rmsaatr",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resRMSAATR\\GPSRMSAATR24084\\NANO24084GPSRMSAATR.mat",
+      "sizeBytes": 384,
+      "mtimeUtc": "2026-04-18T11:23:47.591975+00:00",
+      "sha256": "883d9bc1ffc3d3a15c07a4ba937287ae8ca0f9ad877fcb69fd7ffc5ecd976ea3",
+      "station": null
+    },
+    {
+      "category": "golden_rmsaatr",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resRMSAATR\\GPSRMSAATR24084\\UCLU24084GPSRMSAATR.mat",
+      "sizeBytes": 382,
+      "mtimeUtc": "2026-04-18T11:23:47.742342+00:00",
+      "sha256": "68588a642d75613e1cb6321d69273f1825be4e11c2b33f80fb967b9d96ac2c11",
+      "station": null
+    },
+    {
+      "category": "golden_crot",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\ivcROT\\GPScROT24084\\ALBH24084GPS_B_L_cROT.mat",
+      "sizeBytes": 505428,
+      "mtimeUtc": "2026-04-18T11:27:26.438616+00:00",
+      "sha256": "a15f7150af62e9f899020f39ebffe3b15f2b4ef82ae45bcb33997529e2c2bcee",
+      "station": null
+    },
+    {
+      "category": "golden_crot",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\ivcROT\\GPScROT24084\\BAMF24084GPS_B_L_cROT.mat",
+      "sizeBytes": 465483,
+      "mtimeUtc": "2026-04-18T11:27:26.505718+00:00",
+      "sha256": "75586129966b20d3a95dca0463142ee8ee188d86db37a85c8a5dc52cf6775d9e",
+      "station": null
+    },
+    {
+      "category": "golden_crot",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\ivcROT\\GPScROT24084\\CHWK24084GPS_B_L_cROT.mat",
+      "sizeBytes": 460675,
+      "mtimeUtc": "2026-04-18T11:27:26.573388+00:00",
+      "sha256": "979516372d1afbd6baeed98d90d81da5261363fd50ff871f16fb6761580e4a31",
+      "station": null
+    },
+    {
+      "category": "golden_crot",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\ivcROT\\GPScROT24084\\HOLB24084GPS_B_L_cROT.mat",
+      "sizeBytes": 586610,
+      "mtimeUtc": "2026-04-18T11:27:26.644817+00:00",
+      "sha256": "b7782124ae4e46dc631c7df5798cb0b96d85644d0bdab8f9dde748248d75a11e",
+      "station": null
+    },
+    {
+      "category": "golden_crot",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\ivcROT\\GPScROT24084\\NANO24084GPS_B_L_cROT.mat",
+      "sizeBytes": 556990,
+      "mtimeUtc": "2026-04-18T11:27:26.713503+00:00",
+      "sha256": "611b85e3a091f55bdc507a3ae4636162a9c9779cc97f90c49e019a8abbdcacc7",
+      "station": null
+    },
+    {
+      "category": "golden_crot",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\ivcROT\\GPScROT24084\\UCLU24084GPS_B_L_cROT.mat",
+      "sizeBytes": 481116,
+      "mtimeUtc": "2026-04-18T11:27:26.780341+00:00",
+      "sha256": "4a382690d12136db63fca8adcd933ebff3e38b3c5ae23ec33076bfd2c63d69d4",
+      "station": null
+    },
+    {
+      "category": "golden_dixsg",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resDIXSG\\GPSDIXSG24084\\GPS24084DIXSG.mat",
+      "sizeBytes": 127970,
+      "mtimeUtc": "2026-04-18T11:28:33.765782+00:00",
+      "sha256": "96e387174dadb669bd4d613fadb81f7f97729b8d5546004b44820f7def4879ba",
+      "station": null
+    },
+    {
+      "category": "golden_sigmaphi",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resSIGMAPHI\\GPSsigmaphi24084\\albh24084GPSsigmaphi.mat",
+      "sizeBytes": 115916,
+      "mtimeUtc": "2026-04-18T11:39:37.865735+00:00",
+      "sha256": "954dfb52a257e6450b9b4fb4b7caa307b1564d491db405c128699f26a9d2354f",
+      "station": null
+    },
+    {
+      "category": "golden_sigmaphi",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resSIGMAPHI\\GPSsigmaphi24084\\bamf24084GPSsigmaphi.mat",
+      "sizeBytes": 114714,
+      "mtimeUtc": "2026-04-18T11:39:52.158972+00:00",
+      "sha256": "c8b96a24f750c44d4baa932d337976f9c8c45d47280928ebbb2ad40646097841",
+      "station": null
+    },
+    {
+      "category": "golden_sigmaphi",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resSIGMAPHI\\GPSsigmaphi24084\\chwk24084GPSsigmaphi.mat",
+      "sizeBytes": 114997,
+      "mtimeUtc": "2026-04-18T11:40:03.482404+00:00",
+      "sha256": "cf3c17f324f6ae6311368b4f11b2705cec7c600a04a529d3e4a7aa14fcfb376c",
+      "station": null
+    },
+    {
+      "category": "golden_sigmaphi",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resSIGMAPHI\\GPSsigmaphi24084\\holb24084GPSsigmaphi.mat",
+      "sizeBytes": 114779,
+      "mtimeUtc": "2026-04-18T11:40:13.362900+00:00",
+      "sha256": "160e4bc4a912e2ce7fe4f91336fde22a1f1fa0fbce8d4f5c69b4e07b06dbcaa9",
+      "station": null
+    },
+    {
+      "category": "golden_sigmaphi",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resSIGMAPHI\\GPSsigmaphi24084\\nano24084GPSsigmaphi.mat",
+      "sizeBytes": 115042,
+      "mtimeUtc": "2026-04-18T11:40:23.217401+00:00",
+      "sha256": "0525c9f78bcfd77fd88d6be66e59af5f27a15987552fd9a0ca639ce0f277d843",
+      "station": null
+    },
+    {
+      "category": "golden_sigmaphi",
+      "role": "golden_output",
+      "path": "E:\\2026_mapping_competition\\M_ISSION-master\\resSIGMAPHI\\GPSsigmaphi24084\\uclu24084GPSsigmaphi.mat",
+      "sizeBytes": 114918,
+      "mtimeUtc": "2026-04-18T11:40:32.573994+00:00",
+      "sha256": "0d81c85c82e6c9524588f562858670f160fc9dd94104b1f13e758651f70c71c7",
+      "station": null
+    }
+  ]
+}
