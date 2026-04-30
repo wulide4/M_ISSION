@@ -10,3 +10,7 @@ workspace/logs/
 workspace/outputs/
 workspace/reports/
 workspace/projects/*/tasks/
+build/
+dist/
+.vscode/
+.env

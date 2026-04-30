@@ -1,2 +1,0 @@
-{"version": "001_initial", "event": "migration_applied", "timestamp": "2026-04-27T07:49:55.755308Z", "level": "info"}
-{"version": "002_satellite_ids", "event": "migration_applied", "timestamp": "2026-04-27T07:49:55.761348Z", "level": "info"}

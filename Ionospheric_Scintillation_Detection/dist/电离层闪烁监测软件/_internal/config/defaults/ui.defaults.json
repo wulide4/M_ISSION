@@ -1,9 +1,0 @@
-﻿{
-  "workspacePath": "workspace",
-  "theme": "light",
-  "language": "zh-CN",
-  "enableNonGpsSigmaPhiF": false,
-  "enableExperimental1sResample": false,
-  "enableNavDegradedMode": false,
-  "rinexApproxSigmaPhiFPolicy": "WARNING"
-}
