@@ -1,0 +1,107 @@
+Metadata-Version: 2.4
+Name: ionospheric-scintillation-detection
+Version: 0.1.0
+Summary: Beidou/GNSS ionospheric scintillation desktop MVP
+Author: ISD Team
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: PySide6>=6.7
+Requires-Dist: pydantic>=2.7
+Requires-Dist: pydantic-settings>=2.2
+Requires-Dist: numpy>=1.26
+Requires-Dist: scipy>=1.13
+Requires-Dist: pandas>=2.2
+Requires-Dist: pyarrow>=16.0
+Requires-Dist: pyqtgraph>=0.13
+Requires-Dist: structlog>=24.1
+Requires-Dist: python-dateutil>=2.9
+Provides-Extra: dev
+Requires-Dist: pytest>=8.2; extra == "dev"
+Requires-Dist: pytest-cov>=5.0; extra == "dev"
+Requires-Dist: ruff>=0.4; extra == "dev"
+Requires-Dist: mypy>=1.10; extra == "dev"
+
+# Ionospheric Scintillation Detection (Python MVP)
+
+## Recommended Environment (Conda)
+```powershell
+conda env create -f environment.yml
+conda activate isd-mvp
+pip install -e .[dev]
+```
+
+## Run Desktop App
+```powershell
+conda run -n isd-mvp python -m isd
+```
+
+## P1-07 Highlights
+- `系统设置`页支持默认算法参数、阈值预设、接收机阈值预设的编辑与保存。
+- `数据计算`页支持任务模板保存/应用（含覆盖策略）并显示配置来源：
+  - `manual`
+  - `template`
+  - `default`
+
+## P1-08 Highlights
+- Provider 依赖判定已接入 `validateTask`，返回 `providerSummary/providerChainHint`。
+- 结果元数据已回填 provider 来源摘要（可在结果详情卡与报告预览中查看）。
+
+## Core Validation Commands
+```powershell
+# Unified P0 quality gate (pytest + step12 + demo)
+conda run -n isd-mvp python scripts/run_p0_gate.py
+
+# Unit + integration tests
+conda run -n isd-mvp pytest -q
+
+# Step12 regression gate
+conda run -n isd-mvp python scripts/run_step12_gate.py
+
+# Step12 regression gate (explicit dataset matrix)
+conda run -n isd-mvp python scripts/run_step12_gate.py --datasets 24084,24085
+
+# End-to-end MVP demo
+conda run -n isd-mvp python scripts/run_mvp_demo.py
+
+# Freeze snapshot (gate + demo + consolidated status)
+conda run -n isd-mvp python scripts/run_release_freeze.py
+
+# Final Step12 closeout (acceptance sign-off + freeze archive zip)
+conda run -n isd-mvp python scripts/run_step12_closeout.py --signed-by <owner_name>
+
+# Windows release gate
+conda run -n isd-mvp python scripts/run_windows_release_gate.py
+
+# Build Windows portable package
+conda run -n isd-mvp python scripts/build_windows_release.py
+
+# Collect diagnostics bundle
+conda run -n isd-mvp python scripts/collect_diagnostics.py --workspace workspace
+
+# Build demo report (PDF by default, auto-fallback to txt when needed)
+conda run -n isd-mvp python scripts/build-report-demo.py --project-id <project_id>
+```
+
+## Key Artifacts
+- P0 gate summary: `workspace/reports/p0_gate_summary.json`
+- Step12 summary: `workspace/reports/regression_step12_summary_24084.json`
+- Step12 matrix summary: `workspace/reports/regression_step12_summary_matrix.json`
+- MVP demo summary: `workspace/reports/mvp_demo_summary.json`
+- Freeze snapshot: `workspace/reports/release_freeze_snapshot.json`
+- Step12 closeout summary: `workspace/reports/step12_closeout_summary.json`
+- Acceptance sign-off: `workspace/reports/mvp_acceptance_signoff.json`
+- Windows release gate summary: `workspace/reports/windows_release_gate_summary.json`
+- Windows portable package output: `workspace/releases/windows/`
+- Freeze archives: `workspace/releases/freeze/`
+
+## Documentation
+- Python spec v2: [ENGINEERING_SPEC_PYTHON_V2.md](ENGINEERING_SPEC_PYTHON_V2.md)
+- Next phase checklist: [docs/next_phase_plan_checklist.md](docs/next_phase_plan_checklist.md)
+- validateTask rule matrix: [docs/validate_task_rule_matrix.md](docs/validate_task_rule_matrix.md)
+- Progress: [docs/development_progress.md](docs/development_progress.md)
+- MVP acceptance checklist: [docs/mvp_acceptance_checklist.md](docs/mvp_acceptance_checklist.md)
+- Release notes: [docs/release_notes_v0_1_mvp.md](docs/release_notes_v0_1_mvp.md)
+- Known limitations: [docs/known_limitations.md](docs/known_limitations.md)
+- Rollback plan: [docs/rollback_plan.md](docs/rollback_plan.md)
+- Windows release runbook: [docs/windows_release_runbook.md](docs/windows_release_runbook.md)
+- Windows troubleshooting manual: [docs/windows_troubleshooting_manual.md](docs/windows_troubleshooting_manual.md)

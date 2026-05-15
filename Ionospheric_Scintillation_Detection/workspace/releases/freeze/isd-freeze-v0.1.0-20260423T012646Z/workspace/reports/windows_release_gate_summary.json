@@ -1,0 +1,22 @@
+{
+  "generatedAtUtc": "2026-04-23T01:26:43.442252+00:00",
+  "overallStatus": "PASSED",
+  "steps": [
+    {
+      "name": "version_sync",
+      "exitCode": 0,
+      "status": "PASSED"
+    },
+    {
+      "name": "windows_release_build",
+      "exitCode": 0,
+      "status": "PASSED"
+    },
+    {
+      "name": "release_layout_check",
+      "status": "PASSED",
+      "missingFiles": [],
+      "releaseDir": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\releases\\windows\\isd-v0.1.0-20260423T012643Z"
+    }
+  ]
+}

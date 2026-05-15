@@ -1,0 +1,275 @@
+{
+  "generatedAtUtc": "2026-04-23T01:26:08.679893+00:00",
+  "platform": "Windows-10-10.0.22631-SP0",
+  "python": "3.11.15 | packaged by conda-forge | (main, Mar  5 2026, 16:36:00) [MSC v.1944 64 bit (AMD64)]",
+  "steps": [
+    {
+      "name": "step12_gate",
+      "status": "PASSED",
+      "exitCode": 0,
+      "logTail": ".............................................................            [100%]\n61 passed in 21.61s\nALBH ROTI mae=0.000e+00 AATR mae=1.268e-18 RAATR mae=1.041e-17\nBAMF ROTI mae=0.000e+00 AATR mae=1.510e-18 RAATR mae=1.214e-17\nCHWK ROTI mae=0.000e+00 AATR mae=1.326e-18 RAATR mae=1.099e-17\nHOLB ROTI mae=0.000e+00 AATR mae=1.344e-18 RAATR mae=1.214e-17\nNANO ROTI mae=0.000e+00 AATR mae=1.362e-18 RAATR mae=6.361e-18\nUCLU ROTI mae=0.000e+00 AATR mae=1.385e-18 RAATR mae=9.830e-18\nReport: E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_roti_aatr_24084.json\nALBH cROT mae=4.312e-12\nBAMF cROT mae=2.715e-12\nCHWK cROT mae=4.274e-12\nHOLB cROT mae=2.439e-12\nNANO cROT mae=2.878e-12\nUCLU cROT mae=2.517e-12\nDIXSG aDIXSG mae=1.171e-01\nReport: E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_crot_dixsg_24084.json\nALBH mae=0.000e+00\nBAMF mae=0.000e+00\nCHWK mae=0.000e+00\nHOLB mae=0.000e+00\nNANO mae=0.000e+00\nUCLU mae=0.000e+00\nReport: E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_sigmaphi_24084.json\nALBH mat_mae=0.000e+00 parquet_mae=0.000e+00\nBAMF mat_mae=0.000e+00 parquet_mae=0.000e+00\nCHWK mat_mae=0.000e+00 parquet_mae=0.000e+00\nHOLB mat_mae=0.000e+00 parquet_mae=0.000e+00\nNANO mat_mae=0.000e+00 parquet_mae=0.000e+00\nUCLU mat_mae=0.000e+00 parquet_mae=0.000e+00\nDIXSG mat_values_mae=0.000e+00 mat_grid_mae=0.000e+00 parquet_values_mae=0.000e+00 parquet_grid_mae=0.000e+00\nReport: E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_export_24084.json\nExport regression passed.\nSummary: E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_step12_summary_24084.json\noverallStatus=PASSED\nSummary: E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_step12_summary_matrix.json\noverallStatus=PASSED\n>> F:\\anaconda\\anaconda\\envs\\isd-mvp\\python.exe -m pytest -q\n>> F:\\anaconda\\anaconda\\envs\\isd-mvp\\python.exe scripts/run_roti_aatr_regression_24084.py --dataset 24084 --reports-dir workspace/reports\n>> F:\\anaconda\\anaconda\\envs\\isd-mvp\\python.exe scripts/run_crot_dixsg_regression_24084.py --dataset 24084 --reports-dir workspace/reports\n>> F:\\anaconda\\anaconda\\envs\\isd-mvp\\python.exe scripts/run_sigmaphi_regression_24084.py --dataset 24084 --reports-dir workspace/reports\n>> F:\\anaconda\\anaconda\\envs\\isd-mvp\\python.exe scripts/run_export_regression_24084.py --dataset 24084 --reports-dir workspace/reports\n>> F:\\anaconda\\anaconda\\envs\\isd-mvp\\python.exe scripts/build_step12_summary.py --dataset 24084 --reports-dir workspace/reports --output workspace/reports/regression_step12_summary_24084.json\n>> F:\\anaconda\\anaconda\\envs\\isd-mvp\\python.exe scripts/build_step12_summary.py --datasets 24084 --reports-dir workspace/reports --output workspace/reports/regression_step12_summary_matrix.json\nStep12 gate passed.\n"
+    },
+    {
+      "name": "windows_release_gate",
+      "status": "PASSED",
+      "exitCode": 0,
+      "logTail": ">> F:\\anaconda\\anaconda\\envs\\isd-mvp\\python.exe scripts/check_version_sync.py\nVersion check passed: 0.1.0\n\n>> F:\\anaconda\\anaconda\\envs\\isd-mvp\\python.exe scripts/build_windows_release.py --skip-wheel\nWindows release package generated: E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\releases\\windows\\isd-v0.1.0-20260423T012643Z\nVersion: 0.1.0\n\nSummary: E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\windows_release_gate_summary.json\noverallStatus=PASSED\n"
+    },
+    {
+      "name": "mvp_demo",
+      "status": "PASSED",
+      "exitCode": 0,
+      "logTail": "{\n  \"projectId\": \"proj_1776907604449_3fzosd\",\n  \"taskId\": \"task_1776907604498_tmxmif\",\n  \"taskStatus\": \"COMPLETED\",\n  \"stationCount\": 6,\n  \"runDate\": \"2024-03-24\",\n  \"resultCount\": 6,\n  \"firstResultId\": \"res_1776907606144_3inqna\",\n  \"exports\": {\n    \"mat\": \"E:\\\\2026_mapping_competition\\\\M_ISSION-master\\\\Ionospheric_Scintillation_Detection\\\\workspace\\\\reports\\\\mvp_demo_task_1776907604498_tmxmif_first.mat\",\n    \"parquet\": \"E:\\\\2026_mapping_competition\\\\M_ISSION-master\\\\Ionospheric_Scintillation_Detection\\\\workspace\\\\reports\\\\mvp_demo_task_1776907604498_tmxmif_first.parquet\",\n    \"report\": \"E:\\\\2026_mapping_competition\\\\M_ISSION-master\\\\Ionospheric_Scintillation_Detection\\\\workspace\\\\reports\\\\mvp_demo_task_1776907604498_tmxmif_report.txt\"\n  },\n  \"riskFlags\": [\n    \"FORMAL_PIPELINE\"\n  ]\n}\nSummary: E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\mvp_demo_summary.json\n"
+    }
+  ],
+  "overallStatus": "PASSED",
+  "artifacts": {
+    "step12Summary": {
+      "generatedAtUtc": "2026-04-23T01:26:43.130111+00:00",
+      "dataset": "24084",
+      "overallStatus": "PASSED",
+      "failedChecks": [],
+      "exportViolations": [],
+      "checks": [
+        {
+          "name": "ROTI_MAE",
+          "observed": 0.0,
+          "threshold": 1e-10,
+          "status": "PASSED"
+        },
+        {
+          "name": "AATR_MAE",
+          "observed": 1.5097803253935278e-18,
+          "threshold": 1e-10,
+          "status": "PASSED"
+        },
+        {
+          "name": "RAATR_MAE",
+          "observed": 1.214306433183765e-17,
+          "threshold": 1e-10,
+          "status": "PASSED"
+        },
+        {
+          "name": "CROT_MAE",
+          "observed": 4.312252459470047e-12,
+          "threshold": 1e-09,
+          "status": "PASSED"
+        },
+        {
+          "name": "DIXSG_ADIXSG_MAE",
+          "observed": 0.11713757749684332,
+          "threshold": 0.2,
+          "status": "PASSED"
+        },
+        {
+          "name": "DIXSG_COVERAGE_DELTA",
+          "observed": 0.00021958590534976175,
+          "threshold": 0.05,
+          "status": "PASSED"
+        },
+        {
+          "name": "SIGMAPHI_MAE",
+          "observed": 0.0,
+          "threshold": 1e-12,
+          "status": "PASSED"
+        },
+        {
+          "name": "EXPORT_SERIES_MAT_MAE",
+          "observed": 0.0,
+          "threshold": 1e-12,
+          "status": "PASSED"
+        },
+        {
+          "name": "EXPORT_SERIES_PARQUET_MAE",
+          "observed": 0.0,
+          "threshold": 1e-12,
+          "status": "PASSED"
+        },
+        {
+          "name": "EXPORT_GRID_MAT_VALUES_MAE",
+          "observed": 0.0,
+          "threshold": 1e-12,
+          "status": "PASSED"
+        },
+        {
+          "name": "EXPORT_GRID_MAT_GRID_MAE",
+          "observed": 0.0,
+          "threshold": 1e-12,
+          "status": "PASSED"
+        },
+        {
+          "name": "EXPORT_GRID_PARQUET_VALUES_MAE",
+          "observed": 0.0,
+          "threshold": 1e-12,
+          "status": "PASSED"
+        },
+        {
+          "name": "EXPORT_GRID_PARQUET_GRID_MAE",
+          "observed": 0.0,
+          "threshold": 1e-12,
+          "status": "PASSED"
+        },
+        {
+          "name": "EXPORT_SCRIPT_VIOLATIONS",
+          "observed": 0,
+          "threshold": 0,
+          "status": "PASSED"
+        }
+      ],
+      "reportPaths": {
+        "roti_aatr": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_roti_aatr_24084.json",
+        "crot_dixsg": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_crot_dixsg_24084.json",
+        "sigmaphi": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_sigmaphi_24084.json",
+        "export": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_export_24084.json"
+      }
+    },
+    "step12MatrixSummary": {
+      "generatedAtUtc": "2026-04-23T01:26:43.202436+00:00",
+      "overallStatus": "PASSED",
+      "datasets": [
+        "24084"
+      ],
+      "failedDatasets": [],
+      "datasetSummaries": [
+        {
+          "generatedAtUtc": "2026-04-23T01:26:43.202436+00:00",
+          "dataset": "24084",
+          "overallStatus": "PASSED",
+          "failedChecks": [],
+          "exportViolations": [],
+          "checks": [
+            {
+              "name": "ROTI_MAE",
+              "observed": 0.0,
+              "threshold": 1e-10,
+              "status": "PASSED"
+            },
+            {
+              "name": "AATR_MAE",
+              "observed": 1.5097803253935278e-18,
+              "threshold": 1e-10,
+              "status": "PASSED"
+            },
+            {
+              "name": "RAATR_MAE",
+              "observed": 1.214306433183765e-17,
+              "threshold": 1e-10,
+              "status": "PASSED"
+            },
+            {
+              "name": "CROT_MAE",
+              "observed": 4.312252459470047e-12,
+              "threshold": 1e-09,
+              "status": "PASSED"
+            },
+            {
+              "name": "DIXSG_ADIXSG_MAE",
+              "observed": 0.11713757749684332,
+              "threshold": 0.2,
+              "status": "PASSED"
+            },
+            {
+              "name": "DIXSG_COVERAGE_DELTA",
+              "observed": 0.00021958590534976175,
+              "threshold": 0.05,
+              "status": "PASSED"
+            },
+            {
+              "name": "SIGMAPHI_MAE",
+              "observed": 0.0,
+              "threshold": 1e-12,
+              "status": "PASSED"
+            },
+            {
+              "name": "EXPORT_SERIES_MAT_MAE",
+              "observed": 0.0,
+              "threshold": 1e-12,
+              "status": "PASSED"
+            },
+            {
+              "name": "EXPORT_SERIES_PARQUET_MAE",
+              "observed": 0.0,
+              "threshold": 1e-12,
+              "status": "PASSED"
+            },
+            {
+              "name": "EXPORT_GRID_MAT_VALUES_MAE",
+              "observed": 0.0,
+              "threshold": 1e-12,
+              "status": "PASSED"
+            },
+            {
+              "name": "EXPORT_GRID_MAT_GRID_MAE",
+              "observed": 0.0,
+              "threshold": 1e-12,
+              "status": "PASSED"
+            },
+            {
+              "name": "EXPORT_GRID_PARQUET_VALUES_MAE",
+              "observed": 0.0,
+              "threshold": 1e-12,
+              "status": "PASSED"
+            },
+            {
+              "name": "EXPORT_GRID_PARQUET_GRID_MAE",
+              "observed": 0.0,
+              "threshold": 1e-12,
+              "status": "PASSED"
+            },
+            {
+              "name": "EXPORT_SCRIPT_VIOLATIONS",
+              "observed": 0,
+              "threshold": 0,
+              "status": "PASSED"
+            }
+          ],
+          "reportPaths": {
+            "roti_aatr": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_roti_aatr_24084.json",
+            "crot_dixsg": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_crot_dixsg_24084.json",
+            "sigmaphi": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_sigmaphi_24084.json",
+            "export": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_export_24084.json"
+          }
+        }
+      ]
+    },
+    "windowsReleaseGateSummary": {
+      "generatedAtUtc": "2026-04-23T01:26:43.442252+00:00",
+      "overallStatus": "PASSED",
+      "steps": [
+        {
+          "name": "version_sync",
+          "exitCode": 0,
+          "status": "PASSED"
+        },
+        {
+          "name": "windows_release_build",
+          "exitCode": 0,
+          "status": "PASSED"
+        },
+        {
+          "name": "release_layout_check",
+          "status": "PASSED",
+          "missingFiles": [],
+          "releaseDir": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\releases\\windows\\isd-v0.1.0-20260423T012643Z"
+        }
+      ]
+    },
+    "mvpDemoSummary": {
+      "projectId": "proj_1776907604449_3fzosd",
+      "taskId": "task_1776907604498_tmxmif",
+      "taskStatus": "COMPLETED",
+      "stationCount": 6,
+      "runDate": "2024-03-24",
+      "resultCount": 6,
+      "firstResultId": "res_1776907606144_3inqna",
+      "exports": {
+        "mat": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\mvp_demo_task_1776907604498_tmxmif_first.mat",
+        "parquet": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\mvp_demo_task_1776907604498_tmxmif_first.parquet",
+        "report": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\mvp_demo_task_1776907604498_tmxmif_report.txt"
+      },
+      "riskFlags": [
+        "FORMAL_PIPELINE"
+      ]
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "generatedAtUtc": "2026-04-23T01:26:43.202436+00:00",
+  "overallStatus": "PASSED",
+  "datasets": [
+    "24084"
+  ],
+  "failedDatasets": [],
+  "datasetSummaries": [
+    {
+      "generatedAtUtc": "2026-04-23T01:26:43.202436+00:00",
+      "dataset": "24084",
+      "overallStatus": "PASSED",
+      "failedChecks": [],
+      "exportViolations": [],
+      "checks": [
+        {
+          "name": "ROTI_MAE",
+          "observed": 0.0,
+          "threshold": 1e-10,
+          "status": "PASSED"
+        },
+        {
+          "name": "AATR_MAE",
+          "observed": 1.5097803253935278e-18,
+          "threshold": 1e-10,
+          "status": "PASSED"
+        },
+        {
+          "name": "RAATR_MAE",
+          "observed": 1.214306433183765e-17,
+          "threshold": 1e-10,
+          "status": "PASSED"
+        },
+        {
+          "name": "CROT_MAE",
+          "observed": 4.312252459470047e-12,
+          "threshold": 1e-09,
+          "status": "PASSED"
+        },
+        {
+          "name": "DIXSG_ADIXSG_MAE",
+          "observed": 0.11713757749684332,
+          "threshold": 0.2,
+          "status": "PASSED"
+        },
+        {
+          "name": "DIXSG_COVERAGE_DELTA",
+          "observed": 0.00021958590534976175,
+          "threshold": 0.05,
+          "status": "PASSED"
+        },
+        {
+          "name": "SIGMAPHI_MAE",
+          "observed": 0.0,
+          "threshold": 1e-12,
+          "status": "PASSED"
+        },
+        {
+          "name": "EXPORT_SERIES_MAT_MAE",
+          "observed": 0.0,
+          "threshold": 1e-12,
+          "status": "PASSED"
+        },
+        {
+          "name": "EXPORT_SERIES_PARQUET_MAE",
+          "observed": 0.0,
+          "threshold": 1e-12,
+          "status": "PASSED"
+        },
+        {
+          "name": "EXPORT_GRID_MAT_VALUES_MAE",
+          "observed": 0.0,
+          "threshold": 1e-12,
+          "status": "PASSED"
+        },
+        {
+          "name": "EXPORT_GRID_MAT_GRID_MAE",
+          "observed": 0.0,
+          "threshold": 1e-12,
+          "status": "PASSED"
+        },
+        {
+          "name": "EXPORT_GRID_PARQUET_VALUES_MAE",
+          "observed": 0.0,
+          "threshold": 1e-12,
+          "status": "PASSED"
+        },
+        {
+          "name": "EXPORT_GRID_PARQUET_GRID_MAE",
+          "observed": 0.0,
+          "threshold": 1e-12,
+          "status": "PASSED"
+        },
+        {
+          "name": "EXPORT_SCRIPT_VIOLATIONS",
+          "observed": 0,
+          "threshold": 0,
+          "status": "PASSED"
+        }
+      ],
+      "reportPaths": {
+        "roti_aatr": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_roti_aatr_24084.json",
+        "crot_dixsg": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_crot_dixsg_24084.json",
+        "sigmaphi": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_sigmaphi_24084.json",
+        "export": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\regression_export_24084.json"
+      }
+    }
+  ]
+}

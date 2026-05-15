@@ -1,0 +1,47 @@
+{
+  "generatedAtUtc": "2026-04-23T01:28:41.623271+00:00",
+  "freezeId": "isd-freeze-v0.1.0-20260423T012841Z",
+  "version": "0.1.0",
+  "signedBy": "codex_step12_closeout",
+  "overallStatus": "PASSED",
+  "checks": [
+    {
+      "name": "release_freeze_snapshot_passed",
+      "status": true,
+      "detail": "workspace/reports/release_freeze_snapshot.json overallStatus == PASSED"
+    },
+    {
+      "name": "step12_matrix_passed",
+      "status": true,
+      "detail": "workspace/reports/regression_step12_summary_matrix.json overallStatus == PASSED"
+    },
+    {
+      "name": "windows_release_gate_passed",
+      "status": true,
+      "detail": "workspace/reports/windows_release_gate_summary.json overallStatus == PASSED"
+    },
+    {
+      "name": "mvp_demo_completed",
+      "status": true,
+      "detail": "workspace/reports/mvp_demo_summary.json taskStatus == COMPLETED"
+    },
+    {
+      "name": "mvp_demo_exports_exist",
+      "status": true,
+      "detail": "Demo export files exist: ['E:\\\\2026_mapping_competition\\\\M_ISSION-master\\\\Ionospheric_Scintillation_Detection\\\\workspace\\\\reports\\\\mvp_demo_task_1776907604498_tmxmif_first.mat', 'E:\\\\2026_mapping_competition\\\\M_ISSION-master\\\\Ionospheric_Scintillation_Detection\\\\workspace\\\\reports\\\\mvp_demo_task_1776907604498_tmxmif_first.parquet', 'E:\\\\2026_mapping_competition\\\\M_ISSION-master\\\\Ionospheric_Scintillation_Detection\\\\workspace\\\\reports\\\\mvp_demo_task_1776907604498_tmxmif_report.txt']"
+    },
+    {
+      "name": "version_sync_passed",
+      "status": true,
+      "detail": "pyproject.toml version equals src/isd/__init__.py __version__ and semver valid"
+    },
+    {
+      "name": "required_docs_present",
+      "status": true,
+      "detail": "Required docs present for freeze: release notes / limitations / rollback / acceptance checklist",
+      "missing": []
+    }
+  ],
+  "steps": [],
+  "missingFiles": []
+}

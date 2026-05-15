@@ -1,0 +1,2 @@
+[console_scripts]
+isd = isd.__main__:main

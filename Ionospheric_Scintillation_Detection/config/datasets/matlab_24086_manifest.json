@@ -1,0 +1,13 @@
+{
+  "datasetId": "matlab_24086",
+  "datasetLabel": "MATLAB sample baseline aligned with DOY 24086",
+  "doy": "24086",
+  "date": "2024-03-26",
+  "status": "planned",
+  "generatedAtUtc": "2026-04-22T02:55:11.506128+00:00",
+  "repoRoot": "E:\\2026_mapping_competition\\M_ISSION-master",
+  "projectRoot": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection",
+  "stations": [],
+  "counts": {},
+  "entries": []
+}

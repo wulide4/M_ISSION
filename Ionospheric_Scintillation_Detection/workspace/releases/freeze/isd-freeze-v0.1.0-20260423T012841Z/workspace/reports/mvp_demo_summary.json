@@ -1,0 +1,17 @@
+{
+  "projectId": "proj_1776907604449_3fzosd",
+  "taskId": "task_1776907604498_tmxmif",
+  "taskStatus": "COMPLETED",
+  "stationCount": 6,
+  "runDate": "2024-03-24",
+  "resultCount": 6,
+  "firstResultId": "res_1776907606144_3inqna",
+  "exports": {
+    "mat": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\mvp_demo_task_1776907604498_tmxmif_first.mat",
+    "parquet": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\mvp_demo_task_1776907604498_tmxmif_first.parquet",
+    "report": "E:\\2026_mapping_competition\\M_ISSION-master\\Ionospheric_Scintillation_Detection\\workspace\\reports\\mvp_demo_task_1776907604498_tmxmif_report.txt"
+  },
+  "riskFlags": [
+    "FORMAL_PIPELINE"
+  ]
+}
