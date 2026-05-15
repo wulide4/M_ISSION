@@ -1,0 +1,8 @@
+{
+  "ROTI": { "value": 0.5, "unit": "TECU/min", "source": "LITERATURE_REFERENCE", "description": "Per Pi et al. (1997); widely used threshold for moderate scintillation" },
+  "AATR": { "value": 0.2, "unit": "TECU/min", "source": "LITERATURE_REFERENCE", "description": "Per Sanz et al. (2014); sensitive to regional ionospheric disturbances" },
+  "IAATR": { "value": 0.2, "unit": "TECU/min", "source": "LITERATURE_REFERENCE", "description": "Instantaneous AATR, same scale as AATR" },
+  "DIXSG": { "value": 0.5, "unit": "index", "source": "LITERATURE_REFERENCE", "description": "Per Jakowski et al. (2012); quantitative standard for global disturbance evaluation" },
+  "SIGMA_PHI_F": { "value": 0.05, "unit": "m", "source": "LITERATURE_REFERENCE", "description": "Phase scintillation threshold in meters; per Ahmed et al. (2015) sigma_phi=0.2 rad (0.038 m L1); station-specific CCDF method recommended per Zhao et al. (2022b)" },
+  "S4C": { "value": 0.25, "unit": "dimensionless", "source": "LITERATURE_REFERENCE", "description": "SNR-based amplitude scintillation index; threshold 0.25 per Van Dierendonck et al. (1993); Zhang et al. (2026)" }
+}

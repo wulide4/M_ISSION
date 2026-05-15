@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.spec
+
+# IDE
+.idea/
+.vscode/
+
+# Runtime workspace data
+workspace/cache/
+workspace/temp/
+workspace/logs/
+workspace/outputs/
+workspace/reports/
+workspace/projects/*/tasks/
+workspace/releases/
+workspace/samples/
+workspace/isd.db
+workspace/isd.sqlite3
+workspace/_viz_debug.log
